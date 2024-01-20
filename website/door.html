@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="door.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+         
+                    <div style="
+                    position: sticky;">
+                
+                <div class="sidebar">
+             <a style="
+             color: white;
+             cursor: pointer;
+             text-decoration: blink;
+             font-weight: 700;
+             font-kerning: none;
+             margin: auto;" href="./window.html">Window Gallery</a>
+                </div>
+                
+                </div>
+            <div class="container-1">
+                <div class="header text ">
+                    <img src="res/logo.png" alt="logo" class="logo">
+                    <div class="dropmenu text ">
+                        <ul class="">
+                        <a href="index.html">  <li>Home</li></a> 
+                        <a href="aboutTage">	<li>About</li> </a>  
+                        <a href="index.html#ProductSlides">           <li>Products</li></a> 
+                        <a href="contactTag.html"> <li>Contact </li></a> 
+                        </ul>
+                    </div>
+                    <a href="login.html"> <p  class="checkout" > <b>Check Out (<span>0</span>) Items </b></p></a>
+                    </div>
+                    
+                </div>
+                <div class="myBtnContainer" style="    margin: 2% 1% 2% 7%;
+                width: 77%;">
+
+                    <h3 class="text">Pick a door style.</h3> <br>
+            <button class="btn active btntext" id="all" onclick="$('.pro').css('visibility','visible');
+                                                          $('#classic', '#modern').removeClass('active'); 
+                                                               "> Show all</button>
+            
+            
+            
+            <button class="btn btntext" id="classic" onclick="$('.mdrn').css('visibility','hidden');
+                                                $('.clsc').css('visibility','visible');
+                                            $('#all', '#modern').removeClass('active');
+                                            $(this).addClass('active');
+                                            
+                                            "
+                                            
+                                            > Classic</button>
+                                            
+
+
+
+             <button class="btn btntext"  id="modern" onclick="$('.clsc').css('visibility','hidden');
+                                                    $('.mdrn').css('visibility','visible');
+                                                    
+                                                    $('#all', '#classic').removeClass('active');
+                                                    $(this).addClass('active');"> Modern</button>
+              
+                    <hr style="width: 26%;">
+               
+                          
+            </div>
+            <div id="offer">
+                <h3>20% Coupon <span style="color:white ;">OFF  </span>for sales above 2000LE</h3>
+                 </div>   
+            
+            <!--<b id="TopPage"></b>-->
+                
+                <div class="row1">
+                     
+                    <div class=" product1 clsc pro" >
+                        <div class="zoom "><img class="pimg" src="res/doors/1.jpg" alt="" > </div>
+                        <div><a class='addtocart'><img   src="res/cartIcon.png" alt="" width="30px" height="30px" style="display: inline;"></a></div>
+                    </div>
+                    <div class="product2 clsc pro" >
+                        <div class="zoom "> <img class="pimg" src="res/doors/2.jpg" alt="" > </div>
+                        <div><a class="addtocart"><img  src="res/cartIcon.png" alt="" width="30px" height="30px" style="display: inline;"></a></div>
+                    
+                
+                   </div>
+                    <div class="product3 mdrn pro">
+
+                        <div class="zoom "><img class="pimg" src="res/doors/3.jpg" alt="" > </div>
+                        <div><a class="addtocart"><img  src="res/cartIcon.png" alt="" width="30px" height="30px" style="display: inline;"></a></div>
+                    </div>  
+                    
+                    <div class=" product1 mdrn pro" >
+                        <div class="zoom "><img class="pimg" style="
+                            height: 192px;
+                        " src="res/doors/4.jpg" alt="" > </div>
+                        <div><a class="addtocart"><img src="res/cartIcon.png" alt="" width="30px" height="30px" style="display: inline;"></a></div>
+                    </div>
+
+
+                    <div class="row1" style="
+                        display: inline-table;
+                    height: fit-content;width: 48%;left: 13%;height: 169px;">
+                       <div> <h3 style="font-size: 17px;
+                        font-weight: 700;
+                        font-family: 'Open Sans', sans-serif;
+                        color:#633c27" >STANDARD DOOR PROGRAMS</h3></div>
+                       <div> <p class="text" style="padding: 11px;">Architectural Series Poplar</p></div>
+                       <div> <p class="text" style="padding: 11px;">Builders Choice Collection MDF Doors</p></div>
+                        
+                        </div>
+
+                </div>
+
+
+                    
+                    <hr class="hrmid">
+             
+
+                <div class="row2">
+
+                    <div class=" product1 clsc pro" >
+                        <div class="zoom "><img class="pimg" src="res/doors/5.jpg" alt="" > </div>
+                        <div><a class="addtocart"><img src="res/cartIcon.png" alt="" width="30px" height="30px" style="display: inline;"></a></div>
+                    </div>
+
+                    <div class="product2 clsc pro" >
+                        <div class="zoom "> <img class="pimg" src="res/doors/6.jpg" alt="" > </div>
+                        <div><a class="addtocart"><img   src="res/cartIcon.png" alt="" width="30px" height="30px" style="display: inline;"></a></div>
+                   </div>
+
+                    <div class="product3 mdrn pro">
+                        <div class="zoom "><img class="pimg" src="res/doors/7.jpg" alt="" > </div>
+                        <div><a class="addtocart"> <img   src="res/cartIcon.png" alt="" width="30px" height="30px" style="display: inline;"></a></div>
+                    </div>  
+                    
+                    <div class=" product1 mdrn pro" >
+                        <div class="zoom "><img style="
+                            height: 192px;"  class="pimg"src="res/doors/8.jpg" alt="" > </div>
+                        <div ><a class="addtocart "> <img   src="res/cartIcon.png" alt="" width="30px" height="30px" style="display: inline;"></a></div>
+                    </div>
+
+
+                    <div class="row2" style="
+                        display: inline-table;
+                    height: fit-content;width: 48%;left: 13%;height: 169px;">
+                       <div> <h3 style="font-size: 17px;
+                        font-weight: 700;
+                        font-family: 'Open Sans', sans-serif;
+                        color:#633c27" >STANDARD DOOR PROGRAMS</h3></div>
+                       <div> <p class="text" style="padding: 11px;">Architectural Series Poplar</p></div>
+                       <div> <p class="text" style="padding: 11px;">Builders Choice Collection MDF Doors</p></div>
+                        
+                        </div>
+                </div>
+
+
+                <hr class="hrmid">
+                
+                
+                <div class="row3">
+                    <div><h3 class="text" style="margin: 0 1%;"> Product</h3></div>
+
+                    <p style="margin-bottom: 24px;
+                    line-height: 23px;
+                    font-size: 16px;
+                    font-weight: 100;
+                    color: #502f1b;">line is designed to bring you a premium quality, 1 ¾" paint grade door at a significant savings from our custom designed doors. Using the same materials and craftsmanship as our custom doors, the Architectural Series offers our more popular door styles and a select group of our many profile combinations. With the Architectural Series you will receive traditional styles, premium quality, and an affordable price.</p>
+                    
+                 </div>
+
+
+                 <div class="row4">
+
+                    <img style="width: 80%;
+                    height: 65%; margin: 0 13% 0 0;" src="res/d4.jpg">
+                    <div class="row4" style="
+                    display: inline-table;
+                height: fit-content;width: 48%;left: 13%;height: 169px;
+                ">
+                   <div> <h3 style="font-size: 17px;
+                    font-weight: 700;
+                    font-family: 'Open Sans', sans-serif;
+                    color:#633c27" >Beloved DOOR PROGRAMS</h3></div>
+                   <div> <p class="text" style="padding: 11px;">Architectural Series Poplar</p></div>
+                   <div> <p class="text" style="padding: 11px;">Builders Choice Collection MDF Doors</p></div>
+                   <div> <p class="text" style="padding: 11px;">Sweet Home Collection</p></div>
+                   <div> <p class="text" style="padding: 11px;">Builders Choice Collection MDF Doors</p></div>
+                   <div> <p class="text" style="padding: 11px;">Baby Rooms </p></div>
+                   <div> <p class="text" style="padding: 11px;">Companys best choiec collection</p></div>
+                   <div> <p class="text" style="padding: 11px;">Meet Our designers</p></div>
+                   <div> <p class="text" style="padding: 11px;">Customize you Door</p></div>
+                   <div> <p class="text" style="padding: 11px;">Just pick your Style</p></div>
+
+                    </div>
+                 </div>
+
+
+
+
+
+                 <div class="contact">
+                    <form style="width: 36%;
+                    padding: 20px;
+                    margin: auto 10% auto auto;" >
+                        <fieldset  style="    border: 0px;">  
+                     <input  style= "width: 303px;
+                     height: 42px;border: 1px solid #a5845e;
+margin: 1%;"class="button" 
+                     name="Name" type="text" size="30" tabindex="2" placeholder="Name" 
+            onclick="if(this.value=='Name'){this.value=''}">
+                        
+                        <input style= "width: 303px;
+                     height: 42px;border: 1px solid #a5845e;
+margin: 1%;"class="button"
+                     onclick="if(this.value=='Email'){this.value=''}" name="Email" type="email" size="30" tabindex="2" placeholder="Email" >
+                     
+                     <input   style= "width: 303px;
+                     height: 42px;border: 1px solid #a5845e;
+margin: 1%;"class="button"
+                     onclick="if(this.value=='Phone'){this.value=''}" name="Phone" type="number" size="30" tabindex="2" placeholder="phone" >
+                     <br>
+                     
+                     <span><input class="button" style="background-color: #a5845e;color:#FFFFFF ;
+                        width: 133px;
+margin: auto 1% auto 17%;
+                        width: 133px;" type="submit" id="submitbtn" ></input>
+                         </span>
+        
+                        <br>
+                    </fieldset>
+                    </form>  
+                    <span style="margin: auto; font-size: 38px;">
+                        <label for="phone number"  class="label" > Phone : 01298768868</label>
+                        <br> 
+                        <label for="Address" class="label" style="text-align: center;">Address:ALexandria,Egypt</label>
+                        <br>
+                        <label for="Mail"  class="label" style="text-align: center;">  Email:babwshebak@doors.com</label>
+                    </span>
+                     </div>
+
+     
+        
+                 <div class="footer" >
+                    <span style="width: fit-content;margin: auto;font-size: 15px;">  <pre> COPY RIGHTS ©2020 | ALL RIGHTS RESERVED </pre>
+                    </span>
+                    <span style="margin: auto;display: inline-flex;">
+                        <a  href="https://www.facebook.com" _blanck>
+                            <img class="contactSocial"  src="res/facebook.jpg" >
+                        </a>
+                        <a href="Home.html" _blanck>
+                            <img  class="contactSocial"  src="res/twitter.jpg" >
+                        </a>
+                        <a  href="https://www.facebook.com" _blanck>
+                            <img class="contactSocial"  src="res/insta.jpg" >
+                        </a>
+                    </span>
+                    </div>
+
+        
+        
+        <script>
+            $('.sidebar').hover(function() {
+                $(this).css('right', -200);
+                });
+
+                $('.pro').css('display','block')
+            
+                let carts=document.querySelectorAll('.addtocart');
+
+                let products=[
+                  {  name:"Gray Door",
+                    type:'classic',
+                    price: 400,
+                    incart:0 }, 
+                    {  name:"Black Door",
+                    type:'classic',
+                    price: 330,
+                    incart:0 }, 
+                    {  name:"Brown Door",
+                    type:'classic',
+                    price: 285,
+                    incart:0 }, 
+                    {  name:"White Door",
+                    type:'classic',
+                    price: 380,
+                    incart:0 }, 
+                    {  name:"GrayM Door",
+                    type:'medern',
+                    price: 210,
+                    incart:0 }, 
+                    {  name:"BlackM Door",
+                    type:'medern',
+                    price: 150,
+                    incart:0 }, 
+                    {  name:"BrownM Door",
+                    type:'medern',
+                    price: 200,
+                    incart:0 }, 
+                    {  name:"WhiteM Door",
+                    type:'medern',
+                    price: 270, 
+                    incart:0}  
+                     ];
+
+                for(let i=0;i< 5;i++)
+                {carts[i].addEventListener('click',()=>{
+                   cartNumbers(products[i]); 
+                   totalCost(products[i])
+                })
+                   
+                }
+
+                function onloadCartNumber(){
+                    let productNumbers=localStorage.getItem('cartNumbers');
+                    if(productNumbers){
+                        document.querySelector('.checkout span').textContent=productNumbers;
+                    }
+                }
+
+                function cartNumbers(product){
+                    
+                    let productNumbers=localStorage.getItem('cartNumbers');
+                    
+                    productNumbers=parseInt(productNumbers);
+                    if(productNumbers){
+                        localStorage.setItem('cartNumbers',productNumbers+1);  
+                        document.querySelector('.checkout span').textContent=productNumbers+1;
+                    }
+                     else{
+                         localStorage.setItem('cartNumbers',1)
+                         document.querySelector('.checkout span').textContent=1;
+
+                     }
+                     setItems(product);
+                }
+              function setItems(product){
+                   let cartItems=localStorage.getItem('productInCart');
+                   cartItems= JSON.parse(cartItems);
+                  if(cartItems != null){
+                      console.log(cartItems[product.type])
+                      if(cartItems[product.tag] == undefined){
+                          cartItems={
+                              ...cartItems,
+                              [product.type]:product
+                          }}
+                         cartItems[product.type].incart +=1;
+                  }
+                  else {
+                    product.incart=1;
+                    cartItems= {
+                      [product.type]: product
+                  }}
+                  
+                  localStorage.setItem("ProductsInCart",JSON.stringify(cartItems) );
+              }    
+
+
+              function totalCost(product){
+                //console.log("The product price is",product.price)
+                let cartCost=localStorage.getItem('totalCost');
+                
+                console.log("My cartCost is", cartCost);
+                if (cartCost != null) {
+                    cartCost=parseInt(cartCost);
+                    localStorage.setItem("totalCost", cartCost+product.price);
+                }
+                else{
+                localStorage.setItem('totalCost',product.price); 
+                }
+              }
+                onloadCartNumber()  ;                 
+               
+
+
+        </script>
+      
+</body>
+</html>

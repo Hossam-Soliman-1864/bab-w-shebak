@@ -1,0 +1,510 @@
+﻿
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+
+* {box-sizing: border-box;
+  margin:0;
+  padding:0;
+font-family:'Montserrat', 'sans-serif';
+}
+
+  img{max-width: 100%;
+  display: block;}
+
+.header{
+
+    background-color: #b19d7f;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+   
+   }
+   .logo{
+    width: 116px;
+    /* padding: 4px; */
+    margin-left: 4%;
+   }
+
+/*  Drop Menu*/
+.dropmenu{
+  display: block;
+  margin: auto auto auto 5%;
+     
+}
+
+
+.dropmenu ul {
+   list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.dropmenu ul a li {
+ 
+    color: white;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    position: relative;
+    font-size: 18px;
+}
+
+
+
+
+body { 
+    animation: fadeInAnimation ease 3s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+.dropmenu ul a li:hover{
+  
+  text-decoration:underline aliceblue solid;
+}
+
+
+
+.Slides {background-color: #d5cca26b;
+  margin: 0 2% 2%;}
+
+.slid1 {
+  background: url('res/hd3.jpg');
+  animation:fade 3s infinite;
+-webkit-animation:fade 3s infinite;
+
+} 
+
+.slid2 {
+  background: url('res/hd2.jpg');
+  animation:fade3 3s infinite;
+-webkit-animation:fade3 3s infinite;
+}
+.slid2 {
+  background: url('res/hd5.jpg');
+  animation:fade3 3s infinite;
+-webkit-animation:fade3 3s infinite;
+}
+
+@keyframes fade
+{
+  0%   {opacity:1}
+  66.666% { opacity: 0.4}
+  100% { opacity: 1}
+}
+
+@keyframes fade3
+{
+  0%   {opacity:0}
+  66.666% { opacity: 0.4}
+  100% { opacity: 0}
+}
+
+.product_img{
+  width: 100%;
+    height: 587px;
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+    animation:fade 8s infinite;
+    -webkit-animation:fade 8s infinite;
+
+}
+#onHdimg{
+  position: absolute;
+  top: 36%;
+  right: 82%;
+  border-radius: 53%;
+  width: 19%;
+    visibility: visible;
+    animation: shake 7.5s;
+    animation-iteration-count: infinite;
+
+
+  
+}
+#onHdimg2{
+
+  position: absolute;
+  top: -1%;
+  left: 81%;
+  border-radius: 53%;
+  width: 4%;
+  visibility: visible;
+  animation: shake 10.5s;
+  animation-iteration-count: infinite;
+
+}
+
+
+.animation {
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 0.6s;
+  animation-direction: alternate;
+}
+#onHdimg2:hover {
+  width: 9%;
+  z-index: 2;
+}
+
+@keyframes fade {
+  0% {
+      opacity: 1;
+  }
+  25% {
+      opacity: 1;
+  }
+  75% {
+      opacity: 0.6;
+  }
+  100% {
+      opacity: 0.3;
+  }
+}
+
+.welcomText {
+  position: absolute;
+ 
+ 
+  right: 1%;
+  transform: rotate(20deg);
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  padding: 20px;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  width: 22%;
+  height: 22%;
+  background: #caa5b2;
+  border-radius: 21%;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bolder;
+  transform: rotate(30deg);
+
+}
+
+@keyframes example {
+  0%   {background-color: #e05684;}
+  25%  {background-color: rgb(238, 238, 89);}
+  50%  {background-color: #9d5e7b}
+  100% {background-color:#ca9c5e;}
+}
+
+
+
+
+    /* Slideshow container */
+.show-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/*OUR PRODUCTS STYLE*/
+
+.ProductSlide
+{
+  background-color: #d5cca26b;
+    display: block;
+    width: auto;
+    height: 364px;    padding: 3%;
+    overflow: hidden;
+    
+}
+.yelloeBg {
+  background: url(res/insimg.png) no-repeat;
+  height: 68px;
+  width: 330px;
+  margin: 37px 0 0 -24px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #f6f6f7;
+  padding: 15px 0px 0 47px;
+}
+.ourGallery{
+  margin:  3% 3% 0% 3%;
+ 
+  height: 400px;
+}
+.ins-section{
+  margin: 0 0 0 24px;
+  background-color:#88a06b;
+  width: 335px;
+  height: 345px;
+  float: left;}
+.polaroid {
+  display: inline-flex;
+    float: left;
+    margin-left: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 5px;
+}
+
+img.imgProd
+{
+  height: 147px;
+  width: 266px;
+}
+a.linkStyle
+{
+    text-decoration: none;
+    color: black;
+    width:255px;
+}
+.descText{
+
+
+  font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #523c17;
+
+}
+div.container {
+  text-align: center;
+  padding: 1px;
+}
+
+.spanDot
+{
+    display: block;
+    width: auto;
+    height: 32px;
+    text-align: center;
+    background-color: #edead8;
+}
+
+.prodDot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.prodDot:hover {
+  background-color: teal;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: teal;
+}
+.welcom-section{
+  width: 100%;
+    display: inline-flex;
+    background-color:#edead8;
+    padding: 0 8% 0 8%;
+    height: 224px;
+
+}
+.text{
+  /*/font-family: "Lucida Console", Courier, monospace;*/
+  font-family: 'Open Sans', sans-serif;
+}
+.zoom {
+
+  background-color: rgb(214, 228, 214);
+  transition: transform .6s; /* Animation */
+  
+}
+
+.zoom:hover {
+  transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.imgShake:hover, .shake:start {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+
+
+.desc-text{ 
+  margin: auto;
+  color: #987e56f2;
+  width: 71%;
+  font-size: 31px;
+  font-style: oblique;
+
+}
+.footer {
+ 
+  background-color:#a5845e;    
+  text-align: center;
+  color: white;
+  display: flex;
+}
+.contact {
+ 
+  background-color:#edead8; ;    
+ text-align: left;
+ display: flex;
+ width: 100%;
+    height: 288px;
+ 
+}
+.extraSection1{
+
+  margin: auto 9% auto 9%;
+  padding: 2px;
+  
+}
+
+.button{
+            
+  font-size: .621em;
+  font-weight: 700;
+  display: inline-block;
+  padding:0.3em 1.2em;
+  margin:0 0.1em 0.1em 0;
+  border:0.16em solid rgba(255,255,255,0);
+ 
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  color:#a5845e;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  text-align:center;
+  transition: all 0.2s;
+
+}
+
+.secspan {
+
+    padding-top: 26px;
+  color: #987e56f2;
+  font-weight: 700;
+  display: block;
+  margin: 3% 28px 0;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  word-spacing: -1.5px;
+}
+
+.h-sep {
+  background: url('res/h-sep.jpeg') no-repeat;
+  height: 150px;
+  width: 8px;
+  float: left;
+  margin-bottom: 0 !important;}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #a5845e;
+      font-weight: 700;       
+      }
+.label{
+  font-size: 22px;
+  color: #a5845e;
+  }
+  .contactSocial{
+    width: 33px;
+    border-radius: 90%;
+
+  }
+  .input {
+
+    color: white;
+    background-color:#5A5050 ;  
+  }
+
+  /* for smaller screens */
+@media  (max-width: 500px) {
+  body {
+    font-size: 17px;
+  }
+  .polaroid {
+    width: 100%;
+  }
+}
+
+
+
+
+@media  (max-width: 900px) {
+  body {
+    font-size: 19px;
+  }
+}
+@media only screen and (max-width: 767px){
+.dropmenu .logo .header{
+    top: 0;
+    height: 80px;
+    left: auto;
+    right: 0;
+    display: block;
+    position: absolute;}
+
+  
+    
+  }
+
+  @media (any-hover: hover) {
+    a:hover {
+      background: rgb(43, 43, 40);
+    }
+  }
+
+  @media (max-width: 360px) {
+    body {
+      font-size: 12px;
+    }
+
+  }
+
+

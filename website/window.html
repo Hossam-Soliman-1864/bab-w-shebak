@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="window.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body  >
+        <!-- product container -->
+  <div  >
+        <div class="header text">
+            <img src="res/window/logo2.png" alt="logo" class="logo">
+            <div class="dropmenu text">
+                <ul>
+                <span><a href="index.html">  <li>Home</li></a></span>
+                <span> <a href="aboutTage">	<li>About</li> </a> </span>
+            <span> <a href="index.html#ProductSlides">           <li>Products</li></a></span>
+            <span> <a href="contactTag.html"> <li>Contact </li></a></span>
+                </ul>
+            </div>
+            <a href="login.html"> <p  class="checkout" > <b>Check Out (<span>0</span>) Items </b></p></a>
+        </div>
+        <div>
+                    <div class="myBtnContainer" style="    margin: 2% 1% 2% 7%;
+                            width: 77%;">
+
+                                <h3 class="text">Pick a window style.</h3> <br>
+                        <button class="btn active btntext" onclick="$('.pro').css('visibility','visible')"> Show all</button>
+                        <button class="btn btntext" onclick="$('.mdrn').css('visibility','hidden');
+                                                            $('.clsc').css('visibility','visible') "> Classic</button>
+                        <button class="btn btntext" onclick="$('.clsc').css('visibility','hidden');
+                                                                $('.mdrn').css('visibility','visible')"> Modern</button>
+                        
+                                <hr style="width: 26%;">
+                        
+                                    
+                    </div>
+                    <div id="offer">
+                            <h3>20% Coupon <span style="color:white ;">OFF  </span>for sales above 2000LE</h3>
+                    </div>   
+        </div>       
+            <div class="gallery-outer">
+                    <ul class="gallery-items" style="padding:0px; position: relative;
+                    height: 1000px;" id="myBtnContainer">
+                        <li  data-category="1" style="opacity: 1; transform: scale(1.5) translate3d(50px,60px,0px);backface-visibility: hidden;
+                        perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                        transition: all 0.5s ease-in-out 0ms; pointer-events: auto;" class="mdrn pro">
+                            <div class="gallery-inner"  >
+                                <img src="res/window/7.jpg" alt=""> <pre>Modern Window</pre>
+                            
+                            </div>
+                            <div  style="width:30%; position: relative; display:inline-flex">
+                                <a class='addtocart'><img src="res/window/card.jpg" alt=""style="width=2px;height=2px;transform: scale(0.5)"> </a>
+                                
+                            </div>
+                        </li>
+
+                            <!--second-->
+
+                    <li  data-category="2" style="opacity: 1; transform: scale(1.5) translate3d(250px,60px,0px);backface-visibility: hidden;
+                        perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                        transition: all 0.5s ease-in-out 0ms; pointer-events: auto;" class="mdrn pro" >
+                            <div class="gallery-inner">
+                                <img src="res/window/10.jpg" alt=""> <pre>Modern Window</pre>   
+                            </div>
+                            <div  style="width:30%; position: relative; display:inline-flex">
+                                <a class='addtocart'><img src="res/window/card.jpg" alt=""style="width=2px;height=2px;transform: scale(0.5)"> </a>
+                                
+                            </div>
+                    </li>
+                            <!--third-->
+                    
+                        <li  data-category="4" style="opacity: 1; transform: scale(1.5) translate3d(450px,60px,0px);backface-visibility: hidden;
+                        perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                        transition: all 0.5s ease-in-out 0ms; pointer-events: auto;" class="mdrn pro">
+                            <div class="gallery-inner">
+                                <img src="res/window/4.jpg" alt="">  <pre>Modern Window</pre> 
+                            </div>
+                            <div  style="width:30%; position: relative; display:inline-flex">
+                                <a class='addtocart'><img src="res/window/card.jpg" alt=""style="width=2px;height=2px;transform: scale(0.5)"> </a>
+                                
+                            </div>
+                        </li>
+                        <!--fourth-->
+                        <li  data-category="3" style="opacity: 1; transform: scale(1.5) translate3d(50px,260px,0px);backface-visibility: hidden;
+                        perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                        transition: all 0.5s ease-in-out 0ms; pointer-events: auto;"class="clsc pro">
+                            <div class="gallery-inner">
+                                <img src="res/window/2.jpg" alt="">  <pre>classic Window</pre>
+                            </div>
+                            <div  style="width:30%; position: relative; display:inline-flex">
+                                <a class='addtocart'><img src="res/window/card.jpg" alt=""style="width=2px;height=2px;transform: scale(0.5)"> </a>
+                                
+                            </div>
+                        </li>
+                        <!--fift-->  
+                        <li  data-category="3" style="opacity: 1; transform: scale(1.5) translate3d(250px,260px,0px);backface-visibility: hidden;
+                        perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                        transition: all 0.5s ease-in-out 0ms; pointer-events: auto;" class="clsc pro">
+                            <div class="gallery-inner">
+                                <img src="res/window/6.jpg" alt="">  <pre>classic Window</pre>
+                            </div>
+                            <div  style="width:30%; position: relative; display:inline-flex">
+                                <a class='addtocart'><img src="res/window/card.jpg" alt=""style="width=2px;height=2px;transform: scale(0.5)"> </a>
+                                
+                            </div>
+                        </li>
+                        <!--sixth-->  
+
+                        <li  data-category="5" style="opacity: 1; transform: scale(1.5) translate3d(450px,260px,0px);backface-visibility: hidden;
+                        perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                        transition: all 0.5s ease-in-out 0ms; pointer-events: auto;"class="clsc pro">
+                            <div class="gallery-inner">
+                                <img src="res/window/5.jpg" alt="">  <pre>classic Window</pre>
+                                
+                            </div>
+                            <div  style="width:30%; position: relative; display:inline-flex">
+                                <a class='addtocart'><img src="res/window/card.jpg" alt=""style="width=2px;height=2px;transform:scale(0.5)"> </a>
+                                
+                            </div>
+                        </li>
+
+                        <!--seven-->
+
+                        <li  data-category="3" style="opacity: 1; transform: scale(1.5) translate3d(50px,460px,0px);backface-visibility: hidden;
+                        perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                        transition: all 0.5s ease-in-out 0ms; pointer-events: auto;"class="mdrn pro">
+                            <div class="gallery-inner">
+                                <img src="res/window/1.jpg" alt=""> <pre>Modern Window</pre>
+                            </div>
+                            <div  style="width:30%; position: relative; display:inline-flex">
+                                <a class='addtocart'><img src="res/window/card.jpg" alt=""style="width=2px;height=2px;transform: scale(0.5)"> </a>
+                                
+                            </div>
+                        </li>
+
+                        <!--eight--> 
+
+                        <li data-category="4" style="opacity: 1; transform: scale(1.5) translate3d(250px,460px,0px);backface-visibility: hidden;
+                        perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                        transition: all 0.5s ease-in-out 0ms; pointer-events: auto;"class="mdrn pro">
+                            <div class="gallery-inner">
+                                <img src="res/window/11.jpg" alt=""> <pre>Modern Window</pre>
+                            </div>
+                            <div  style="width:30%; position: relative; display:inline-flex">
+                                <a class='addtocart'><img src="res/window/card.jpg" alt=""style="width=2px;height=2px;transform: scale(0.5)"> </a>
+                                
+                            </div>
+                        </li>
+                        <!-- nine-->
+                        <li  data-category="5" style="opacity: 1; transform: scale(1.5) translate3d(450px,460px,0px);backface-visibility: hidden;
+                        perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                        transition: all 0.5s ease-in-out 0ms; pointer-events: auto;"class="mdrn pro">
+                            <div class="gallery-inner">
+                                <img src="res/window/12.jpg" alt=""> <pre>Modern Window</pre>
+                            </div>
+                            <div  style="width:30%; position: relative; display:inline-flex">
+                                <a class='addtocart'><img src="res/window/card.jpg" alt=""style="width=2px;height=2px;transform:scale(0.5)"> </a>
+                                
+                            </div>
+                        </li> 
+                        <!--ten-->
+                        <li  data-category="1" style="opacity: 1; transform: scale(1.5) translate3d(650px,60px,0px);backface-visibility: hidden;
+                        perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                        transition: all 0.5s ease-in-out 0ms; pointer-events: auto;"class="mdrn pro">
+                            <div class="gallery-inner">
+                                <img src="res/window/w10.jpg" alt="">  <pre>Modern Window</pre>
+                            </div>
+                            <div  style="width:30%; position: relative; display:inline-flex">
+                                <a class='addtocart'><img src="res/window/card.jpg" alt=""style="width=2px;height=2px;transform: scale(0.5)"> </a>
+                                
+                            </div>
+                        </li>
+                        <!-- eleven-->
+                             <li  data-category="4" style="opacity: 1; transform: scale(1.5) translate3d(650px,450px,0px);backface-visibility: hidden;
+                        perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                        transition: all 0.5s ease-in-out 0ms; pointer-events: auto;"class="mdrn pro">
+                            <div class="gallery-inner">
+                                <img src="res/window/w11.jpg" alt="">   <pre>Modern Window</pre>      
+                            </div>
+                            <div  style="width:30%; position: relative; display:inline-flex">
+                                <a class='addtocart'><img src="res/window/card.jpg" alt=""style="width=2px;height=2px;transform: scale(0.5)"> </a>
+                                
+                            </div>
+                        </li> 
+                        <!--tweleve-->
+                        <li  data-category="2" style="opacity: 1; transform: scale(1.5) translate3d(650px,250px,0px);backface-visibility: hidden;
+                        perspective: 1000px; transform-style: preserve-3d; position: absolute;
+                        transition: all 0.5s ease-in-out 0ms; pointer-events: auto;"class="clsc pro">
+                            <div class="gallery-inner">
+                                <img src="res/window/w2.jpg" alt="">   <pre>classic Window</pre>
+                            </div>
+                            <div  style="width:30%; position: relative; display:inline-flex">
+                                <a class='addtocart'><img src="res/window/card.jpg" alt=""style="width=2px;height=2px;transform: scale(0.5)"> </a>
+                                
+                            </div>
+                        </li>
+                                        
+                    </ul>
+            
+        </div>   
+       
+        
+        <div class="contact">
+            <form style="width: 36%;
+            padding: 20px;
+            margin: auto 10% auto auto;" >
+                <fieldset  style="    border: 0px;">  
+             <input  style= "width: 303px;
+             height: 42px;border: 1px solid #a5845e;
+margin: 1%;"class="button" 
+             name="Name" type="text" size="30" tabindex="2" placeholder="Name" 
+    onclick="if(this.value=='Name'){this.value=''}">
+                
+                <input style= "width: 303px;
+             height: 42px;border: 1px solid #a5845e;
+margin: 1%;"class="button"
+             onclick="if(this.value=='Email'){this.value=''}" name="Email" type="email" size="30" tabindex="2" placeholder="Email" >
+             
+             <input   style= "width: 303px;
+             height: 42px;border: 1px solid #a5845e;
+margin: 1%;"class="button"
+             onclick="if(this.value=='Phone'){this.value=''}" name="Phone" type="number" size="30" tabindex="2" placeholder="phone" >
+             <br>
+             
+             <span><input class="button" style="background-color: #a5845e;color:#FFFFFF ;
+                width: 133px;
+margin: auto 1% auto 17%;
+                width: 133px;" type="submit" id="submitbtn" ></input>
+                 </span>
+                
+                
+                
+                
+                <br>
+            </fieldset>
+            </form>  
+            <span style="margin: auto; font-size: 38px;">
+                <label for="phone number"  class="label" > Phone : 01298768868</label>
+                <br> 
+                <label for="Address" class="label" style="text-align: center;">Address:ALexandria,Egypt</label>
+                <br>
+                <label for="Mail"  class="label" style="text-align: center;">  Email:babwshebak@doors.com</label>
+            </span>
+             </div>
+
+       
+
+
+
+        <div class="footer" >
+            <span style="width: fit-content;margin: auto;font-size: 15px;">  <pre> COPY RIGHTS ©2020 | ALL RIGHTS RESERVED </pre>
+            </span>
+            <span style="margin: auto;display: inline-flex;">
+                <a  href="https://www.facebook.com" _blanck>
+                    <img class="contactSocial"  src="res/window/facebook.jpg" >
+                </a>
+                <a href="Home.html" _blanck>
+                    <img  class="contactSocial"  src="res/window/twitter.jpg" >
+                </a>
+                <a  href="https://www.facebook.com" _blanck>
+                    <img class="contactSocial"  src="res/window/insta.jpg" >
+                </a>
+            </span>
+            </div>
+ </div>
+ <script>
+    $('.sidebar').hover(function() {
+        $(this).css('right', -200);
+        });
+
+        $('.pro').css('display','block')
+    
+        let carts=document.querySelectorAll('.addtocart');
+
+        let products=[
+          {  name:"Gray window",
+            type:'classic',
+            price: 400,
+            incart:0 }, 
+            {  name:"Black window",
+            type:'classic',
+            price: 330,
+            incart:0 }, 
+            {  name:"Brown window",
+            type:'classic',
+            price: 285,
+            incart:0 }, 
+            {  name:"White window",
+            type:'classic',
+            price: 380,
+            incart:0 }, 
+            {  name:"GrayM window",
+            type:'medern',
+            price: 210,
+            incart:0 }, 
+            {  name:"BlackM window",
+            type:'medern',
+            price: 150,
+            incart:0 }, 
+            {  name:"BrownM window",
+            type:'medern',
+            price: 200,
+            incart:0 }, 
+            {  name:"WhiteM window",
+            type:'medern',
+            price: 270, 
+            incart:0} 
+            , 
+            {  name:"Whites window",
+            type:'medern',
+            price: 270, 
+            incart:0} , 
+            {  name:"Whites window",
+            type:'medern',
+            price: 270, 
+            incart:0} , 
+            {  name:"Whites window",
+            type:'medern',
+            price: 270, 
+            incart:0} , 
+            {  name:"Whites window",
+            type:'medern',
+            price: 270, 
+            incart:0}  
+             ];
+
+        for(let i=0;i< 13;i++)
+        {carts[i].addEventListener('click',()=>{
+           cartNumbers(products[i]); 
+           totalCost(products[i])
+        })
+           
+        }
+
+        function onloadCartNumber(){
+            let productNumbers=localStorage.getItem('cartNumbers');
+            if(productNumbers){
+                document.querySelector('.checkout span').textContent=productNumbers;
+            }
+        }
+
+        function cartNumbers(product){
+            
+            let productNumbers=localStorage.getItem('cartNumbers');
+            
+            productNumbers=parseInt(productNumbers);
+            if(productNumbers){
+                localStorage.setItem('cartNumbers',productNumbers+1);  
+                document.querySelector('.checkout span').textContent=productNumbers+1;
+            }
+             else{
+                 localStorage.setItem('cartNumbers',1)
+                 document.querySelector('.checkout span').textContent=1;
+
+             }
+             setItems(product);
+        }
+      function setItems(product){
+           let cartItems=localStorage.getItem('productInCart');
+           cartItems= JSON.parse(cartItems);
+          if(cartItems != null){
+              console.log(cartItems[product.type])
+              if(cartItems[product.tag] == undefined){
+                  cartItems={
+                      ...cartItems,
+                      [product.type]:product
+                  }}
+                 cartItems[product.type].incart +=1;
+          }
+          else {
+            product.incart=1;
+            cartItems= {
+              [product.type]: product
+          }}
+          
+          localStorage.setItem("ProductsInCart",JSON.stringify(cartItems) );
+      }    
+
+
+      function totalCost(product){
+        //console.log("The product price is",product.price)
+        let cartCost=localStorage.getItem('totalCost');
+        
+        console.log("My cartCost is", cartCost);
+        if (cartCost != null) {
+            cartCost=parseInt(cartCost);
+            localStorage.setItem("totalCost", cartCost+product.price);
+        }
+        else{
+        localStorage.setItem('totalCost',product.price); 
+        }
+      }
+        onloadCartNumber()  ;                 
+       
+
+
+</script>
+  </body>
+  </html>
+
+  

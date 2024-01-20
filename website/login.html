@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="login.css"/>
+
+</head>
+<body style="background-color: antiquewhite;">
+   <div class="header ">
+    <img src="res/logo.png" alt="logo" class="logo">
+    <div class="dropmenu ">
+        <ul>
+        <span><a href="homePage.html">  <li>Home</li></a></span>
+    
+        <span> <a href="aboutTage">	<li>Reviews</li> </a> </span>
+        <span><a href="index.html">  <li>Inspiration</li></a></span>
+        <span> <a href="aboutTage">	<li>Employment</li> </a> </span>
+        <span> <a href="aboutTage">	<li>About</li> </a> </span>
+    <span> <a href="index.html#ProductSlides">           <li>Products</li></a></span>
+    <span> <a href="contactTag.html"> <li>Contact </li></a></span>
+        </ul>
+    </div>
+</div>
+
+<div>
+
+
+    <div style="margin: 4%;
+    color: red;
+    font-size: 23px;
+    /* color: #a5845e; */
+    font-family: 'Open Sans', sans-serif;
+" >
+    <span class="animation" style="margin: 15%;">
+            You must sign in befor check out
+        </span>
+    
+
+    </div>
+
+
+    <img id="onHdimg" src="res/offer.jpg">
+
+</div>
+   <form action="checkout.html" name="login" style="width: fit-content;margin: -2% 3% 3% 33%;" > 
+        <fieldset style="display: inline-block; border-radius: 24%;
+        width: 458px;" >    
+          <legend style="font-weight: 700;font-size: 31px;    color: #b19d7f;;
+          ">Login</legend>   
+          <span id="Msg"></span>
+          <p style="display: flex;">
+          <input style="text-align: center;border-color: beige;height: 23px; width: 268px;    margin-left: 71px;background-color: antiquewhite"
+           name="uname" id="uname" type="text" size="30" value="Enter your username "
+                onfocus="if(this.value.split(' ')[0]=='Enter'){this.value='';}"
+                   onblur="blureHandler(this.value);"> 
+          <label id="indiName" style="text-align: center;width: 79px;height: 21px;/*border: 4px solid;*/
+                  font-size: 14px;display: block;padding-top: 4px;">
+                  </label>
+              </p>  
+      <p>
+          <input name="upass" style="border-color: beige;text-align: center;margin-left: 71px; background-color: antiquewhite;
+          height: 23px;width: 268px; " type="password" size="30" placeholder="enter password"
+          onclick="this.value='';"
+          ></p>            
+                  <span>
+                      <input style="margin-left: 38%;width: 91px;height: 34px;background-color: #b19d7f;" 
+                          type="submit"value="login" onclick="setLocalStorage()">
+                            <input type="checkbox" value="lsRemeMe" id="remeMe"> <label  style="font-weight: 700;
+                            font-size: 12px;
+                            color: #755959;" for="lsRemeMe">Remember</label>
+                            <input type="checkbox" value="fogetMe" id="forgMe"> <label  style="font-weight: 700;
+                            font-size: 12px;
+                            color: #755959;" for="fogetMe">Forget</label>
+                            <!--https://stackoverflow.com/questions/9709209/html-select-only-one-checkbox-in-a-group-->
+                           
+                      </span>  
+                    </fieldset> 
+                    </form> 
+                    <script src="./login.js" ></script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+* {box-sizing: border-box;
+  margin:0;
+  padding:0;}
+
+  img{max-width: 100%;
+  display: block;}
+ 
+.header{
+
+    background-color:#a5845e;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+   
+   }
+   .logo{
+    width: 116px;
+    /* padding: 4px; */
+    margin-left: 4%;
+   }
+
+/*  Drop Menu*/
+.dropmenu{
+  display: block;
+  margin: auto auto auto 20%;
+     
+}
+
+
+.dropmenu ul {
+   list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.dropmenu ul a li {
+  font-weight: 800;
+    color: white;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+
+
+.dropmenu ul ul{
+  display: none;
+}
+.dropmenu ul li:hover >ul{
+  display: block ;
+}
+
+   
+.footer {
+ 
+  background-color:#a5845e;    
+  text-align: right;
+  color: white;
+  display: block;
+  width: 100%;
+  height: 40px;
+  position: relative;
+
+  transform: scale(1) translate3d(0px,10px,0px);
+}
+
+
+#offer {
+  float: right;
+  position: absolute;
+  height: 55px;
+  width: 200px;
+  top:150px;
+  right: 300px;
+  color:   rgb(74, 74, 75) ;
+  border-radius: 15px;
+  text-align: center;
+  justify-content: center;
+  background-color: orange;
+   
+ -webkit-animation: action 1s infinite  alternate;
+ animation: action 1s infinite  alternate;
+}
+
+
+
+  .gallery-outer{
+    width: 966px;
+    float: left;
+    height: 200;
+    padding: 0 1px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .gallery-items li{
+    width: 12%;
+    float: left;
+    padding: 0 1px 2px;
+    list-style-type: none;
+  }
+  .gallery-items li img{
+    width: 90%;
+    height: auto;
+    -webkit-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+  }
+  .gallery-inner{
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+   
+  }
+  
+  .gallery-items li:hover img{
+   
+    transform:scale(0.9);
+  }
+  
+
+.filterDiv {
+  float: left;
+  width: 100px;
+  margin: 2px;
+  display:hidden; /* Hidden by default */
+}
+.container {
+  overflow: hidden;
+}
+
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+
+
+.contactSocial{
+  width: 33px;
+  border-radius: 90%;
+
+}
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #895838;;
+  color: white;
+}
+
+.btntext{
+
+  font-size: 16px;
+    color: #a5845e;
+    font-family: 'Open Sans', sans-serif;
+}
+.checkout{
+  float: right;
+  display: inline;
+  color: aliceblue;
+    position: relative;
+    
+     margin-right: auto;
+     border:1px solid aliceblue ;
+      border-radius: 25px  ;
+      font-size: 20px; 
+      top:35%;
+      right: 50%;
+}
+.button{
+            
+  font-size: .621em;
+  font-weight: 700;
+  display: inline-block;
+  padding:0.3em 1.2em;
+  margin:0 0.1em 0.1em 0;
+  border:0.16em solid rgba(255,255,255,0);
+ 
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  color:#a5845e;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  text-align:center;
+  transition: all 0.2s;
+
+}
+.contact {
+ 
+  background-color:#edead8; ;    
+ text-align: left;
+ display: flex;
+ width: 100%;
+    height: 288px;
+    transform: scale(1) translate3d(0px,10px,0px);
+}
+.label{
+  font-size: 22px;
+  color: #a5845e;
+  }
